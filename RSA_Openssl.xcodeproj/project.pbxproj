@@ -12,7 +12,6 @@
 		D045E45A1CAA721E00EEC102 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D045E40C1CAA721E00EEC102 /* libcrypto.a */; };
 		D045E45B1CAA721E00EEC102 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D045E40D1CAA721E00EEC102 /* libssl.a */; };
 		D045E45D1CAA72E800EEC102 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D045E45C1CAA72E800EEC102 /* LICENSE */; };
-		D045E45F1CAA73C700EEC102 /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = D045E45E1CAA73C700EEC102 /* rsa_public_key.pem */; };
 		D076C24C1CAA663E00454DFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D076C24B1CAA663E00454DFA /* main.m */; };
 		D076C24F1CAA663E00454DFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D076C24E1CAA663E00454DFA /* AppDelegate.m */; };
 		D076C2521CAA663E00454DFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D076C2511CAA663E00454DFA /* ViewController.m */; };
@@ -118,7 +117,6 @@
 		D045E4581CAA721E00EEC102 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
 		D045E4591CAA721E00EEC102 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
 		D045E45C1CAA72E800EEC102 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D045E45E1CAA73C700EEC102 /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
 		D076C2471CAA663E00454DFA /* RSA_Openssl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSA_Openssl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D076C24B1CAA663E00454DFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D076C24D1CAA663E00454DFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -289,7 +287,6 @@
 				D076C24E1CAA663E00454DFA /* AppDelegate.m */,
 				D076C2501CAA663E00454DFA /* ViewController.h */,
 				D076C2511CAA663E00454DFA /* ViewController.m */,
-				D045E45E1CAA73C700EEC102 /* rsa_public_key.pem */,
 				D076C2C11CAA6A6900454DFA /* rsa_private_key1024.pem */,
 				D076C2C21CAA6A6900454DFA /* rsa_public_key1024.pem */,
 				D076C2BB1CAA66D500454DFA /* OpensslRSA.h */,
@@ -405,7 +402,6 @@
 				D076C2571CAA663E00454DFA /* Assets.xcassets in Resources */,
 				D076C2C41CAA6A6900454DFA /* rsa_public_key1024.pem in Resources */,
 				D076C2551CAA663E00454DFA /* Main.storyboard in Resources */,
-				D045E45F1CAA73C700EEC102 /* rsa_public_key.pem in Resources */,
 				D076C2C31CAA6A6900454DFA /* rsa_private_key1024.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
